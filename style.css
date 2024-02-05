@@ -1,0 +1,86 @@
+* {
+	font-family: "Roboto", sans-serif;
+	font-weight: lighter;
+}
+
+/* Header part */
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgb(92, 159, 159);
+	color: #fff;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	list-style: none;
+	margin: 1rem;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.logo {
+	padding: 1rem;
+}
+
+/* Portfolio  */
+.portfolio {
+	display: flex;
+	width: 80%;
+	margin: 100px 200px;
+	text-align: center;
+}
+
+.portfolio img {
+	width: 300px;
+	height: 400px;
+}
+.port-text {
+	padding: 20px;
+	margin-right: 100px;
+	width: 30%;
+}
+
+.port-text h2 {
+	font-weight: bold;
+}
+
+/* Intro */
+.intro {
+	background-color: rgb(206, 204, 204);
+	padding: 3%;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 100px;
+}
+
+.intro h2 {
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+/* Gallary */
+.gallary {
+	margin: 5%;
+}
+
+.gallary img {
+	width: 400px;
+	margin-left: 50px;
+}
+
+/* Footer  */
+.footer {
+	background-color: rgb(182, 181, 181);
+	color: #fff;
+	text-align: center;
+	padding: 3%;
+}
